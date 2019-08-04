@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--
+Return cars and generate bill
+-->
+<html>
+    <head>
+        <title>Car Rental </title>
+        <link href="pstyles.css" rel="stylesheet" type="text/css" />
+     
+    </head>
+    <body>
+       	<div class="logoBackground">
+  	<div class="logo"><h6>WEEKLY REPORT <h6></div>
+    
+  </div>
+		<div class="menu">
+  	<ul>
+    	<li><a href="index.html">Home</a></li>
+        <li><a href="customer.html">Customers</a></li>
+		<li><a href="chauffeur.html">Chauffeur</a></li>
+        <li><a href="cars.html">Cars</a></li>
+        <li><a href="book.html">Book Car</a></li>
+		<li><a href="return.html">Return Car</a></li>
+		<li id="active"><a href="">Report</a></li>
+    </ul>
+  </div>
+	
+<div class="leftContent">
+ <form action="report.php" method="post">
+<h2>View Full Summary Of Usage :</h2> <br> 
+<input type="submit" name="cartype1" value="View Full Summary">
+</form>
+<br><br>
+<form action="report1.php" method="post">
+<h2>View Customer Sumary:</h2> <br> 
+Enter Customer ID: <input type="text" name="CID" /><br><br>
+<input type="submit" name="cartype1" value="View Customer Summary">
+
+</form>
+	
+	</body>
+	</html>
